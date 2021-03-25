@@ -1,0 +1,15 @@
+{
+  "name": "js-lexer",
+  "version": "1.0.0",
+  "description": "A Javascript lexer written in Typescript",
+  "main": "index.js",
+  "repository": "https://github.com/marcuiulian13/js-lexer",
+  "author": "Iulian Marcu <marcu.iulian13@gmail.com>",
+  "license": "Apache 2.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
