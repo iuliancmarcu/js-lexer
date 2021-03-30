@@ -14,4 +14,31 @@
   limitations under the License.
 */
 
-class Lexer {}
+import { Lexer } from './lexer';
+window.Lexer = Lexer;
+// export * from './lexer';
+
+// import { Lexer } from './lexer';
+
+// const lexer = new Lexer(`
+// const ONE = 1;
+
+// function fibonacci(num) {
+//   if (num <= 2) {
+//     return ONE;
+//   }
+
+//   return fibonacci(num - 1) + fibonacci(num - 2);
+// }
+
+// const call = () => fibonacci(10);
+// call();
+// `);
+// lexer.tokenize();
+// console.table(
+//   lexer.getTokens().map((token) => ({
+//     start: `${token.start.row}:${token.start.column}`,
+//     end: `${token.end.row}:${token.end.column}`,
+//     type: token.type,
+//   })),
+// );
